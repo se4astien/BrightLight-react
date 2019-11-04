@@ -3,9 +3,7 @@ import React from "react";
 const Newsletter = () => {
   return (
     <section className="newsletter">
-      <span>
-        Sign up for our newsletter and stay informed kfsdjfkjsdfkjdskfj
-      </span>
+      <span>Sign up for our newsletter and stay informed</span>
       <form>
         <input
           type="email"

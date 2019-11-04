@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "./Nav.js";
+import Header from "./Header.js";
 import Hero from "./Hero.js";
 import Collection from "./Collection.js";
 import Product from "./Product.js";
@@ -13,19 +13,12 @@ import "./css/Responsive.css";
 const App = () => {
   return (
     <>
-      {/* {<!-------------------- NAV -------------------->} */}
-      <Nav></Nav>
-      {/* {<!-------------------- HERO -------------------->} */}
+      <Header></Header>
       <Hero></Hero>
-      {/* {<!-------------------- COLLECTION -------------------->} */}
       <Collection></Collection>
-      {/* {<!-------------------- PRODUCT -------------------->} */}
       <Product></Product>
-      {/* {<!-------------------- PHILOSOPHY -------------------->} */}
       <Philosophy></Philosophy>
-      {/* {<!-------------------- NEWSLETTER -------------------->} */}
       <Newsletter></Newsletter>
-      {/* {<!-------------------- FOOTER -------------------->} */}
       <Footer></Footer>
     </>
   );

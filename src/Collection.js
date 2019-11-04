@@ -1,69 +1,58 @@
 import React from "react";
+import FreeShiping from "./FreeShiping";
+import CollectionTop from "./CollectionTop";
+import CollectionItem from "./CollectionItem";
 
 const Collection = () => {
   return (
-    <section className="collection">
-      {/* <!-- shipping bar --> */}
-      <div className="shipping-bar">
-        <p>Free shipping</p>
-        <a href="#">
-          <ion-icon name="close"></ion-icon>
-        </a>
-      </div>
-
-      <div className="section-top-bar">
-        <a href="#">
-          <h3 className="section-category">Collection</h3>
-        </a>
-        <a className="see-more" href="#">
-          See more
-          <ion-icon name="fastforward"></ion-icon>
-        </a>
-      </div>
-
-      <div className="collection-items">
-        {/* <!-- item 01 --> */}
-        <div className="collection-item">
-          <img src="https://picsum.photos/id/1019/600/750" alt="product" />
-          <div className="collection-info">
-            <h3>best sellers</h3>
-            <a href="#">explore</a>
-          </div>
+    <>
+      <FreeShiping></FreeShiping>
+      <section className="collection">
+        <CollectionTop
+          url="#"
+          title="Collection"
+          urlSeeMore="#"
+          textSeeMore="See more"
+        ></CollectionTop>
+        <div className="collection-items">
+          <CollectionItem
+            url="https://picsum.photos/id/1019/600/750"
+            alt="Photo 01"
+            title="Title 01"
+            urlCategory="#test"
+            titleCategory="explore"
+          ></CollectionItem>
+          <CollectionItem
+            url="https://picsum.photos/id/1032/600/750"
+            alt="Photo 02"
+            title="Title 02"
+            urlCategory="#test"
+            titleCategory="explore"
+          ></CollectionItem>
+          <CollectionItem
+            url="https://picsum.photos/id/1035/600/750"
+            alt="Photo 03"
+            title="Title 03"
+            urlCategory="#test"
+            titleCategory="explore"
+          ></CollectionItem>
+          <CollectionItem
+            url="https://picsum.photos/id/1037/600/750"
+            alt="Photo 04"
+            title="Title 04"
+            urlCategory="#test"
+            titleCategory="explore"
+          ></CollectionItem>
+          <CollectionItem
+            url="https://picsum.photos/id/1039/600/750"
+            alt="Photo 05"
+            title="Title 05"
+            urlCategory="#test"
+            titleCategory="explore"
+          ></CollectionItem>
         </div>
-        {/* <!-- item 02 --> */}
-        <div className="collection-item">
-          <img src="https://picsum.photos/id/1032/600/750" alt="product" />
-          <div className="collection-info">
-            <h3>cat eyes style</h3>
-            <a href="#">explore</a>
-          </div>
-        </div>
-        {/* <!-- item 03 --> */}
-        <div className="collection-item">
-          <img src="https://picsum.photos/id/1035/600/750" alt="product" />
-          <div className="collection-info">
-            <h3>classNameic</h3>
-            <a href="#">explore</a>
-          </div>
-        </div>
-        {/* <!-- item 04 --> */}
-        <div className="collection-item">
-          <img src="https://picsum.photos/id/1037/600/750" alt="product" />
-          <div className="collection-info">
-            <h3>retro</h3>
-            <a href="#">explore</a>
-          </div>
-        </div>
-        {/* <!-- item 05 --> */}
-        <div className="collection-item">
-          <img src="https://picsum.photos/id/1039/600/750" alt="product" />
-          <div className="collection-info">
-            <h3>rounded</h3>
-            <a href="#">explore</a>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

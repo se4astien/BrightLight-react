@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Nav from "./Nav.js";
+import Hero from "./Hero.js";
+import Collection from "./Collection.js";
+import Product from "./Product.js";
+import Philosophy from "./Philosophy.js";
+import Newsletter from "./Newsletter.js";
+import Footer from "./Footer.js";
+import "./css/Reset.css";
+import "./css/Main.css";
+import "./css/Responsive.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* {<!-------------------- NAV -------------------->} */}
+      <Nav></Nav>
+      {/* {<!-------------------- HERO -------------------->} */}
+      <Hero></Hero>
+      {/* {<!-------------------- COLLECTION -------------------->} */}
+      <Collection></Collection>
+      {/* {<!-------------------- PRODUCT -------------------->} */}
+      <Product></Product>
+      {/* {<!-------------------- PHILOSOPHY -------------------->} */}
+      <Philosophy></Philosophy>
+      {/* {<!-------------------- NEWSLETTER -------------------->} */}
+      <Newsletter></Newsletter>
+      {/* {<!-------------------- FOOTER -------------------->} */}
+      <Footer></Footer>
+    </>
   );
-}
+};
 
 export default App;

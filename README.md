@@ -11,7 +11,7 @@ npx create-react-app my-project
 cd my-project
 ```
 
-## Usage
+## Code
 
 Here the App.js for the structure of the website :
 

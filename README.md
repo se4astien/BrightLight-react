@@ -1,6 +1,6 @@
 # Travel Factor
 
-Showcase site which uses Flexbox for the layout and React for the creation of multiples components with props for the structure.
+Showcase site which uses Flexbox for the layout and React for the creation of multiples components for the structure.
 
 ## Installation
 

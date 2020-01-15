@@ -5,7 +5,7 @@ import MenuMobile from "./MenuMobile.js";
 const Header = props => {
   return (
     <header>
-      <h1 className="logo">Travel Factory</h1>
+      <h1 className="logo">Travel Factoro</h1>
 
       <nav className="desktop">
         <ul className="menu">

@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer>
-      <p>Travel Factor 2019</p>
+      <p>Travel Factory 2019</p>
       <p>Made at le Reacteur</p>
       <ul className="social-icons">
         <li>

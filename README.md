@@ -1,4 +1,4 @@
-# Travel Factor
+# Travel Factory
 
 Showcase site which uses Flexbox for the layout and React for the creation of multiples components with props for the structure.
 
@@ -7,8 +7,8 @@ Showcase site which uses Flexbox for the layout and React for the creation of mu
 npx create-react-app to initialize the project.
 
 ```javascript
-npx create-react-app my-project
-cd my-project
+npx create-react-app travel-factory
+cd travel-factory
 ```
 
 ## Code
@@ -30,4 +30,4 @@ import Footer from "./Footer.js";
 ## Deploiement
 Here an exemple of the website on Netlify :
 
-https://travel-factor.netlify.com/
+https://travel-factory.netlify.com/

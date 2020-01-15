@@ -1,6 +1,6 @@
 # Travel Factor
 
-Showcase site which uses Flexbox for the layout and React for the creation of multiples components for the structure.
+Showcase site which uses Flexbox for the layout and React for the creation of multiples components with props for the structure.
 
 ## Installation
 
@@ -13,10 +13,11 @@ cd my-project
 
 ## Usage
 
-```javascript
-import foobar
+Here the App.js for the structure of the website :
 
+```javascript
 import React from "react";
+
 import Header from "./Header.js";
 import Hero from "./Hero.js";
 import Collection from "./Collection.js";
@@ -26,10 +27,7 @@ import Newsletter from "./Newsletter.js";
 import Footer from "./Footer.js";
 ```
 
-## Link
-Here an exemple of the website :
+## Deploiement
+Here an exemple of the website on Netlify :
 
 https://travel-factor.netlify.com/
-
-
-
